@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "salesdataanalisis",
+  "private_key_id": "545c56eac4d8f4aefc29bbc75f3e30c80b4340c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDtmAclOHo5r/6W\nhuHf0Q8UjlZn2KVpkLxXu/XfbDc/sDexACTdC6sxB3RcwzM3qtVlIzXPx/w7hUb0\nHgzbgliGrLS38soDKFvGrOXinh/lyBdNGR6hQ1L722lXTLRbc2I1XwEHeNaaKORT\nrWtpy7BEErkyUOK69t5CWCgVrtN2S1RIJs6tD4iZlFBdvoM+5DExxd5GRMzGc4Sr\ngMfS5Q6KgOI08uwNDPrpqHzSGAxb+VDJfafdSUFoi9yyLKU3g6YNOkOgrCkPYL1M\nnOhTunYUl/u1DrCXM3xYiG2zecQojGpCoBSEjOy6zYQCqXrD0rv9yuGbCX/6tk6j\ngz0+4HGHAgMBAAECggEAburRMyQZk0LBJH6Vhgov8xW76sDt/8lM09xwnTwE0tuu\nNBhwHS1sXvgu73tFNtCuzIdSgMzIyPSgOiipMfS45S5NM67Jdg3qQmbG7zOIipoN\nnrWCYiBu5hr5I4Mwk5zbFTVj4pwb+13psdK82Wf4wt7GzGGMZ2IGQoyrMewq1gbQ\nUw6bY1T0UhcSiz8SOs3RFk6E6fDbxotmE/FVmTOwDyuHa7PCuOuJrlmHunlwLPvr\nQuQKHUEM2mpTgq/IU1FIsfwXot2mEFaKzadnaKBfB344EZsyebSWG4y+bt8w/Udc\nZhvTph73dOUnDndarZOTm7D6U6aEU7D2ctWfl/L+KQKBgQD+JItA5VZKhLwbeIou\njdamwfuQfL4YeSFT4oUmrg9BfNmc+MBXZuhjlO+whCWCklCH9UlEt2ZCylmQ6OUM\nRcgfQjIVa/gMXIABjBY9Z/iPrq3iJJz2lPt9adoxmQxPSxpNfkBMJhm21dtYiT/8\ngcmwxeNQ/bHzE+3YrNE8nXNm0wKBgQDvVIYfCdTXTfT+VDe5WAgtncW1VGbI/b7t\nhnV0OSpeL83bGfLIwV5DMIOysR/kcdwOyCUMwr1/3W+FUfvFqsWkgN+m7kgDtr80\nQeaXPZedN9dxu5e0mIV+/nRQ39E0iF0BES9P/wo+yj2V3mLdciMj3/M6l7qR9kbq\ndL2uA78B/QKBgA1a9kZuxt4bo5b9+qT/pywUPZgWNhcrJmk2GjEyLHMQkI8DM3hk\nXAn/pajtCNuXvMuoRDVsPd98qsBGvOKsOBwMan1dsydTJRbvuat4b0N9tn2P1v/O\nTHkGuwSoOlFgbP1tiQt3ZRqKmoBIlig62dKEU7HJ4zQW9ATS8BvzWkEpAoGARsei\nms9XiQ1fJVBW4pOsZ4E/lW8OruaMbsbTObomU5CjuuajrMezTv+sE07a9b7Oq/h5\nLJrzXDtq3ezvHvhwV0Rd4Iqb9a04QwYyYgwvKKn5J4OpTBnHcVVjpP9sabLifoxM\nh8YPi55YNFh+uKsmxVdYIb35yW0ib/hymGI3PSkCgYAE0EKBPCAAChVPZPrBpRYY\nl1AIvDsbODS/aWw8psJdrVr8ea8eNAfl0EICLk8V0Kq4QjSg6oklD61/Gw7QxIK6\n4bUrr/hJGROIuc8l9S7+M9gdd/cprW9D86iRQFLnuAvRZeJbfuwpWXizlbAk9ueT\nhpys/M7qRwWiTTqYBBdqCQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "prios-54@salesdataanalisis.iam.gserviceaccount.com",
+  "client_id": "115316646070242910103",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/prios-54%40salesdataanalisis.iam.gserviceaccount.com"
+}
