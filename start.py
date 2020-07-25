@@ -13,6 +13,7 @@ from get_sales import get_sheets_sales
 PAULO_ID=1115236899
 CARLOS_ID=1359662327
 OMAN_ID=1286728594
+id_list = [PAULO_ID,CARLOS_ID,OMAN_ID]
 
 updater = Updater(token_bot, use_context=True)
 dispatcher = updater.dispatcher
@@ -20,15 +21,19 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                      level=logging.DEBUG)
                      
 def ventas(ventas, context):
-    ventas.message.reply_text('Getting information...')
-    ventas.message.reply_text('It could take a few seconds...')
-    result = get_sheets_sales(ventas.message.text  )
-    if (type(result) == list):
-        ventas.message.reply_text('Sales information of  ' + result[0] + " " + ventas.message.text)
-        ventas.message.reply_text('Purchases: ' + result[1])
-        ventas.message.reply_text('Sales: ' + result[2])
+    usr_id = ventas.message.from_user.id
+    if usr_id in id_list:
+        ventas.message.reply_text('Getting information...')
+        ventas.message.reply_text('It could take a few seconds...')
+        result = get_sheets_sales(ventas.message.text  )
+        if (type(result) == list):
+            ventas.message.reply_text('Sales information of  ' + result[0] + " " + ventas.message.text)
+            ventas.message.reply_text('Purchases: ' + result[1])
+            ventas.message.reply_text('Sales: ' + result[2])
+        else:
+            ventas.message.reply_text(ventas.message.text + ' it is not a valid date!')
     else:
-        ventas.message.reply_text(ventas.message.text + ' it is not a valid date!')
+        print("You don´t have permissions to read...")
 
 
 def year(year, context):
@@ -39,7 +44,6 @@ def year(year, context):
    
 
 def start(update, context: CallbackContext):
-    #msgr_id = update.message.from_user.id
     update.message.reply_text(
         'Welcome  {}'.format(update.message.from_user.first_name))
     update.message.reply_text('To get sales, please use date format as dd-mm-aa ')
